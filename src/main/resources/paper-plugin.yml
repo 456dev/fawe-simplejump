@@ -1,0 +1,13 @@
+name: simplejump
+version: '${version}'
+main: dev.the456gamer.simplejump.SimpleJumpPlugin
+api-version: '1.20'
+prefix: FaweSimpleJump
+load: STARTUP
+dependencies:
+  server:
+    WorldEdit:
+      required: true
+authors: [456dev]
+description: "Simple /jump for fawe: new version of the jumpto command that doesnt have a permission argument"
+website: github.com/456dev
